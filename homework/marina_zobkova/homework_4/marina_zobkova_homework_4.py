@@ -6,9 +6,9 @@ my_dict = {
              "four": "value4", "five": "value5"},
     "set": {1, 2, 3, 4, 5}
 }
-print(my_dict["tuple"][-1])  #The last element was printed
+print(my_dict["tuple"][-1])  # The last element was printed
 my_dict["list"].append(6)  # An element is added to the end of the list
-my_dict["list"].pop(1)  #The second element of the list was deleted
+my_dict["list"].pop(1)  # The second element of the list was deleted
 print(my_dict["list"])
 my_dict["i am a tuple"] = (10, 20, 30, 40, 50)  # An element is added
 my_dict["dict"].pop("three")  # The element with the key "three" of the dict was deleted
